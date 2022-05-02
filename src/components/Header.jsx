@@ -2,19 +2,23 @@ import React from 'react'
 
 function Header() {
   return (
-    <div >
-      <header className ="wrapper">
+    <header>
+      <div className = "wrapper" id="header-wrapper">
+          <div className = "logo">SealPack</div>
           <nav>
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
                 </ul>
           </nav>
-      </header>
-    </div>
+          <div>
+            <button>Login</button>
+            <button>Register</button>
+          </div>
+      </div>
+    </header>
   )
 }
 
