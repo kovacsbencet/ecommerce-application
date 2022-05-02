@@ -5,8 +5,9 @@
   outline: none;
   box-sizing: border-box;
   background: transparent;
-  font-family: inherit;
+  font-family: 'Barlow Condensed';
   scroll-behavior: smooth;
+  list-style: none;
 }
 
 a{
@@ -42,3 +43,92 @@ select {
 
 /* END OF FONT TYPE PROPERTIES */
 
+/* COLOR PALETTE */
+
+:root{
+  --primaryColor: #191e23;
+  --secondaryColor: #00a0d2;
+  --thirdColor: #f4f4f4;
+}
+
+/* END OF COLOR PALETTE */
+
+/* FONT CSS PROPERTIES */
+
+li{
+  color: var(--thirdColor);
+  font-family: 'Barlow Condensed';
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.logo{
+  color: var(--thirdColor);
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* END OF FONT CSS PROPERTIES */
+
+
+/* BUTTON CSS PROPERTIES */
+
+button{
+  background-color: var(--secondaryColor);
+  color: var(--primaryColor);
+  width: 150px;
+  margin: 0px 5px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* END OF BUTTON CSS PROPERTIES */
+
+/* WRAPPER CSS PROPERTIES */
+
+.wrapper{
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 90%;
+}
+
+/* END OF WRAPPER CSS PROPERTIES */
+
+
+/* HEADER CSS PROPERTIES */
+
+header{
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* END OF HEADER CSS PROPERTIES */
+
+
+/* NAVIGATION CSS PROPERTIES */
+
+nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li{
+  margin: 10px;
+}
+
+/* END OF NAVIGATION CSS PROPERTIES */
