@@ -161,10 +161,11 @@ nav ul li{
 
 .hero{
   background-color: var(--primaryColor);
+  padding: 2em 0em;
 }
 
 #hero-wrapper{
-  padding: 2em 2em;
+  padding: 5em;
   border: 5px solid var(--textColor);
 }
 
@@ -195,7 +196,7 @@ nav ul li{
 
 .productList{
   background-color: var(--primaryColor);
-  padding: 10px 0px;
+  padding: 2em 0em;
 
 }
 
@@ -247,6 +248,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2em 0em;
 }
 
 #footer-wrapper{
