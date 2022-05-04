@@ -140,13 +140,6 @@ header{
   align-items: center;
 }
 
-.gg-shopping-cart{
-  --ggs: 1;
-  color: var(--textColor);
-  margin-right: 10px;
-  padding: 20px;
-  border: 1px solid var(--textColor);
-}
 /* END OF HEADER CSS PROPERTIES */
 
 
@@ -164,6 +157,52 @@ nav ul li{
 
 /* END OF NAVIGATION CSS PROPERTIES */
 
+/* PRODUCT LIST CSS PROPERTIES */
+
+.productList{
+  background-color: var(--primaryColor);
+  padding: 10px 0px;
+
+}
+
+#product-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+/* END OF PRODUCT LIST CSS PROPERTIES */
+
+
+/* PRODUCT CARD CSS PROPERTIES */
+
+.productCard{
+  background-color: var(--textColor);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: fit-content;
+  padding: 20px;
+}
+
+.productCardInfo{
+  width: 100%;
+  padding: 5px;
+}
+
+.productCardInfo h2{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.productCardInfo h4{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* END OF PRODUCT CARD CSS PROPERTIES */
 
 /*FOOTER CSS PROPERTIES */
 

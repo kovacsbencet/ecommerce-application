@@ -43,7 +43,6 @@ return (
             </div>
         </div>
     </footer>
-)
-}
+)}
 
 export default Footer

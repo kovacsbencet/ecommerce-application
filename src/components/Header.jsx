@@ -14,7 +14,6 @@ function Header() {
                 </ul>
           </nav>
           <div className='header-buttons'>
-            <span><i class="gg-shopping-cart"></i></span>
             <button className="login-btn">Login</button>
             <button>Register</button>
           </div>

@@ -3,7 +3,47 @@
         "id": 1,
         "name": "GR1",
         "price": 325,
-        "image": "gr1_black.jpg",
+        "image": "gr1black.png",
+        "colors": ["Ranger Green", "Steel", "Woodland Camo", "Tropic Multicam", "Black"],
+        "description": "GR1® is the toughest rucksack ever built. It thrives in cities, warzones, and traveling the world while rucking. Our original piece of gear, designed and proven by Special Forces soldiers operating in Baghdad, and versatile enough for New York City."
+    },
+    {
+        "id": 2,
+        "name": "GR1",
+        "price": 325,
+        "image": "gr1black.png",
+        "colors": ["Ranger Green", "Steel", "Woodland Camo", "Tropic Multicam", "Black"],
+        "description": "GR1® is the toughest rucksack ever built. It thrives in cities, warzones, and traveling the world while rucking. Our original piece of gear, designed and proven by Special Forces soldiers operating in Baghdad, and versatile enough for New York City."
+    },
+    {
+        "id": 3,
+        "name": "GR1",
+        "price": 325,
+        "image": "gr1black.png",
+        "colors": ["Ranger Green", "Steel", "Woodland Camo", "Tropic Multicam", "Black"],
+        "description": "GR1® is the toughest rucksack ever built. It thrives in cities, warzones, and traveling the world while rucking. Our original piece of gear, designed and proven by Special Forces soldiers operating in Baghdad, and versatile enough for New York City."
+    },
+    {
+        "id": 4,
+        "name": "GR1",
+        "price": 325,
+        "image": "gr1black.png",
+        "colors": ["Ranger Green", "Steel", "Woodland Camo", "Tropic Multicam", "Black"],
+        "description": "GR1® is the toughest rucksack ever built. It thrives in cities, warzones, and traveling the world while rucking. Our original piece of gear, designed and proven by Special Forces soldiers operating in Baghdad, and versatile enough for New York City."
+    },
+    {
+        "id": 5,
+        "name": "GR1",
+        "price": 325,
+        "image": "gr1black.png",
+        "colors": ["Ranger Green", "Steel", "Woodland Camo", "Tropic Multicam", "Black"],
+        "description": "GR1® is the toughest rucksack ever built. It thrives in cities, warzones, and traveling the world while rucking. Our original piece of gear, designed and proven by Special Forces soldiers operating in Baghdad, and versatile enough for New York City."
+    },
+    {
+        "id": 6,
+        "name": "Custom Backpack",
+        "price": 500,
+        "image": "custom.png",
         "colors": ["Ranger Green", "Steel", "Woodland Camo", "Tropic Multicam", "Black"],
         "description": "GR1® is the toughest rucksack ever built. It thrives in cities, warzones, and traveling the world while rucking. Our original piece of gear, designed and proven by Special Forces soldiers operating in Baghdad, and versatile enough for New York City."
     }
