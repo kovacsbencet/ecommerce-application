@@ -142,7 +142,6 @@ header{
 
 /* END OF HEADER CSS PROPERTIES */
 
-
 /* NAVIGATION CSS PROPERTIES */
 
 nav ul{
@@ -156,6 +155,41 @@ nav ul li{
 }
 
 /* END OF NAVIGATION CSS PROPERTIES */
+
+
+/* HERO CSS PROPERTIES */
+
+.hero{
+  background-color: var(--primaryColor);
+}
+
+#hero-wrapper{
+  padding: 2em 2em;
+  border: 5px solid var(--textColor);
+}
+
+#hero-wrapper h3{
+  color: var(--textColor);
+  font-size: 4rem;
+  font-weight: 800;
+}
+#hero-wrapper h5{
+  color: var(--textColor);
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+#hero-wrapper p{
+  color: var(--textColor);
+  padding: 10px 0px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+/* END OF HERO CSS PROPERTIES */
 
 /* PRODUCT LIST CSS PROPERTIES */
 
@@ -189,7 +223,7 @@ nav ul li{
 
 .productCardInfo{
   width: 100%;
-  padding: 5px;
+  padding: 10px;
 }
 
 .productCardInfo h2{
@@ -201,6 +235,7 @@ nav ul li{
   font-size: 1.5rem;
   font-weight: 500;
 }
+
 
 /* END OF PRODUCT CARD CSS PROPERTIES */
 
