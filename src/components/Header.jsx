@@ -4,17 +4,18 @@ function Header() {
   return (
     <header>
       <div className = "wrapper" id="header-wrapper">
-          <div className = "logo">SealPack</div>
+          <div className="logo"><a href="#"><h4>SealPack</h4></a></div>
           <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Products</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
           </nav>
-          <div>
-            <button>Login</button>
+          <div className='header-buttons'>
+            <span><i class="gg-shopping-cart"></i></span>
+            <button className="login-btn">Login</button>
             <button>Register</button>
           </div>
       </div>

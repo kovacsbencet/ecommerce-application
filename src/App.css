@@ -43,27 +43,41 @@ select {
 
 /* END OF FONT TYPE PROPERTIES */
 
+/* ICONS PROPERTIES */
+
+@import url('https://css.gg/css');
+
+/* END OF ICONS PROPERTIES */
+
 /* COLOR PALETTE */
 
 :root{
-  --primaryColor: #191e23;
-  --secondaryColor: #00a0d2;
-  --thirdColor: #f4f4f4;
+  --primaryColor: #1f2024;
+  --secondaryColor: #2dbce9;
+  --textColor: #f4f4f4;
+  --btnColor: #ff0a54;
 }
 
 /* END OF COLOR PALETTE */
 
 /* FONT CSS PROPERTIES */
 
+h3{
+  color: var(--secondaryColor);
+  font-family: 'Barlow Condensed';
+  font-size: 32px;
+  font-weight: 600;
+}
+
 li{
-  color: var(--thirdColor);
+  color: var(--textColor);
   font-family: 'Barlow Condensed';
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .logo{
-  color: var(--thirdColor);
+  color: var(--textColor);
   font-size: 50px;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -75,14 +89,19 @@ li{
 /* BUTTON CSS PROPERTIES */
 
 button{
-  background-color: var(--secondaryColor);
+  background-color: var(--btnColor);
   color: var(--primaryColor);
   width: 150px;
   margin: 0px 5px;
   padding: 10px 20px;
-  border-radius: 50px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.login-btn{
+  background-color: var(--textColor);
+  width: 100px;
 }
 
 /* END OF BUTTON CSS PROPERTIES */
@@ -107,7 +126,6 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 #header-wrapper{
@@ -116,6 +134,19 @@ header{
   align-items: center;
 }
 
+.header-buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gg-shopping-cart{
+  --ggs: 1;
+  color: var(--textColor);
+  margin-right: 10px;
+  padding: 20px;
+  border: 1px solid var(--textColor);
+}
 /* END OF HEADER CSS PROPERTIES */
 
 
@@ -132,3 +163,23 @@ nav ul li{
 }
 
 /* END OF NAVIGATION CSS PROPERTIES */
+
+
+/*FOOTER CSS PROPERTIES */
+
+footer{
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2em 0;
+}
+
+/* END OF FOOTER CSS PROPERTIES */
